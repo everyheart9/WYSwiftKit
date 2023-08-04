@@ -1,9 +1,10 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'WYSwiftKit_Example' do
   pod 'WYSwiftKit', :path => '../'
+  #pod 'WYSwiftKit', :podspec => '../WYSwiftKit.podspec'  # 可以指定podspec文件
 
   target 'WYSwiftKit_Tests' do
     inherit! :search_paths

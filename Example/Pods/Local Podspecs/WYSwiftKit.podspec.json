@@ -1,0 +1,30 @@
+{
+  "name": "WYSwiftKit",
+  "version": "0.1.0",
+  "summary": "WYSwiftKit is a kit.",
+  "swift_versions": "5.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/everyheart9/WYSwiftKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cwy": "cwy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/everyheart9/WYSwiftKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "WYSwiftKit/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

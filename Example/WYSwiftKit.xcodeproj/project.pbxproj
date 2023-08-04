@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		46A7DB85EEDE57BBAFA8F50C /* Pods_WYSwiftKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYSwiftKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C597D7245A418F4633616C5 /* WYSwiftKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WYSwiftKit.podspec; path = ../WYSwiftKit.podspec; sourceTree = "<group>"; };
+		5C597D7245A418F4633616C5 /* WYSwiftKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYSwiftKit.podspec; path = ../WYSwiftKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F60E504A1EFA3D0EC7FD117 /* Pods_WYSwiftKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYSwiftKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* WYSwiftKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYSwiftKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7038158DA5F5DC2E3CE135BB /* Pods-WYSwiftKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYSwiftKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-WYSwiftKit_Tests/Pods-WYSwiftKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F31E9B9BE69CE32882F03D3 /* Pods-WYSwiftKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYSwiftKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-WYSwiftKit_Example/Pods-WYSwiftKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C897D442C204F084487CCAEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E0E258CEC1188CB03617892E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C897D442C204F084487CCAEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E0E258CEC1188CB03617892E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EE299D1810751FE65ACF9984 /* Pods-WYSwiftKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYSwiftKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WYSwiftKit_Tests/Pods-WYSwiftKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FEDEAF939D415DECED8E5E2E /* Pods-WYSwiftKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYSwiftKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WYSwiftKit_Example/Pods-WYSwiftKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				EE299D1810751FE65ACF9984 /* Pods-WYSwiftKit_Tests.debug.xcconfig */,
 				7038158DA5F5DC2E3CE135BB /* Pods-WYSwiftKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,10 +291,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WYSwiftKit_Example/Pods-WYSwiftKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/WYSwiftKit/WYSwiftKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYSwiftKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WYSwiftKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WYSwiftKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

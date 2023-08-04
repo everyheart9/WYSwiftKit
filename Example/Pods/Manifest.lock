@@ -1,0 +1,23 @@
+PODS:
+  - SnapKit (5.6.0)
+  - WYSwiftKit (0.1.0):
+    - SnapKit
+
+DEPENDENCIES:
+  - WYSwiftKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  WYSwiftKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  WYSwiftKit: 979021e90a2daba97056d73245de2536612df4a9
+
+PODFILE CHECKSUM: 553978fe5980e55740c86a9868f64bdd0976071b
+
+COCOAPODS: 1.12.1

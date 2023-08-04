@@ -1,0 +1,6 @@
+framework module Pods_WYSwiftKit_Example {
+  umbrella header "Pods-WYSwiftKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

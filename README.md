@@ -22,7 +22,7 @@ pod 'WYSwiftKit'
 
 ## Author
 
-chenwy, chenwy@gyist.com
+cwy
 
 ## License
 
