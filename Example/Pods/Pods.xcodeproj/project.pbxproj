@@ -13,29 +13,31 @@
 		06E43B4751069B47B3BD4AFD936A57E3 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */; };
 		0833E66E7F19849322305D67777B77DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		0B994CDC79B1AD3A7BE62490D27C60C8 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DCDFF2011C08759407B4E2038CA11 /* ConstraintAttributes.swift */; };
-		1303AC8AD8F7AF03E067E462BD8087EC /* WYSwiftKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3ED58DCCD75894D8C30E058FC7C930 /* WYSwiftKit-dummy.m */; };
 		183D8B3E057B885EA7DF9A8CDCCE9029 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8251A08ED8E6CF34420BBF858126F7 /* ConstraintMakerRelatable.swift */; };
+		20C01CCBA3CCF8B62112402395CE6B7E /* WYSwiftKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D2AF40EDB3B3AC53947F4CB787EC7 /* WYSwiftKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21EDA397FE8103AFCD9BC3533EE3499F /* Pods-WYSwiftKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85639E48325279DA161DF9F299E6C772 /* Pods-WYSwiftKit_Tests-dummy.m */; };
 		220D6AC9B1B1EC8EFFB204F9C1EAC842 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */; };
 		256558233B40ACA6818F143BBC5B8017 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072CC268C7456CC1DA6E8180975AB43 /* ConstraintViewDSL.swift */; };
+		29091E907F0B8587EFCD8B94138AD66E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		2CE8F7C47EF796EAFF854D30AA99CED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		3660B4F629053ABC3C1DF69366770289 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */; };
 		38B9D58E94D9C1CECD7E381C64A2329D /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */; };
+		3F1178DAA0A63330A23A83BCCF5E2BF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		42B6ACFCF650183030867CB3EF345E95 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */; };
 		4BAD99B7394E225CEDBF94B8100BCC7F /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */; };
 		4DA72FD7F1FB2C0449EDEF4B8A579807 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */; };
 		5380454C48A12A6E376122ABD8096968 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */; };
-		55B5487CCEBDC97AC92CA9FE413519FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		55E51F45F1E157D3B4942BA7252C277E /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */; };
 		56A72F6D13D930C4A2568F24DEA33C8D /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */; };
 		56AC6DC6459AE47E7BC4AF06E5B148D2 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02732995CB94C03CB83E1935B434AD74 /* ConstraintDSL.swift */; };
+		5B539A7D6887A7ABC88A0AFBC8E00417 /* WYPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B5C693351E0E63AA4A6F4D7791A3FC /* WYPopUpView.swift */; };
 		5D36B99F3CAB1FC7337082D9581FECA6 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */; };
 		604D3C93C17978C23600EC415949AB64 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D52A60BF41010F680313572B051598 /* ConstraintInsets.swift */; };
 		611CEF7FF1EF9EA1BCEF6C73EEE3ACCF /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */; };
 		69DE75BA185BBAB5FDAA28321F3C849F /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */; };
 		6AC1B881BB319C89AD023A02CDC8FC3D /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */; };
 		6EAC8B6FA2D115DE708A58C601DD25E1 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */; };
-		82ED208A65B607AFD791AED1E2FEC232 /* WYPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18193FBE2CBC78B684194785584FF788 /* WYPopUpView.swift */; };
+		84706093115B4E32AAEF7347164CCE2B /* WYBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19256DB2A95E52745FF0173A137F869 /* WYBasicInfo.swift */; };
 		8DA938095333F2A9E2710768BCCCFFD6 /* Pods-WYSwiftKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D603961326D90BC5DE4F34A40BC0DA /* Pods-WYSwiftKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95E194A3AABB5407231E898B6686F73E /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583BBF75085D255E27A5F9EF9EC203A5 /* ConstraintMakerRelatable+Extensions.swift */; };
 		98F570DA48370453D648BD526FDAAEAA /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE15C12D4B2736CB1D1B07F4838FCA7 /* LayoutConstraintItem.swift */; };
@@ -49,11 +51,10 @@
 		B03B5579590D528CBA6D11FF638BC2AF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */; };
 		B43017FEC99D227D4CDD81DD2C27D9D9 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */; };
 		B752F7C4BECB65894B1F49421049CE5F /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */; };
-		BCC45CEFEB9421815532822B566816AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		BD47CB74CD9B2B4D2D942C9B65748DFB /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */; };
 		C31963C6517866E4D500C24E198BCF0A /* Pods-WYSwiftKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83911E1F6E850A5A76E6DC6B5000CE79 /* Pods-WYSwiftKit_Example-dummy.m */; };
-		DBA03235689A011E30D82E362FE474C6 /* WYSwiftKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F2AA3977E78511922B1CCC80B2E3CE /* WYSwiftKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E05C0A620821BB22FB489B67DFA529A9 /* WYBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DE9100B43A6F133E4D4D1329CA8924 /* WYBasicInfo.swift */; };
+		DDBF71AAD6E9969BC28AF2F0D1FF2674 /* WYSwiftKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A05CCFB42D81275B38C45F5D24F47A /* WYSwiftKit-dummy.m */; };
+		E815A8D66B7E8126460220BE87CADB7C /* WYBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4EC8D56B16A44EC8E551C802B937C3 /* WYBase.swift */; };
 		E98DC8FB2578E76A812E0C94BA10E1B1 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */; };
 		EF21586EC3DFF6097A58EEC87376A0C1 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */; };
 		F7C0960CEEB8F0C18F4503B405EAC08F /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00529F62152FE0E9A82AF6D8EAAAE2E1 /* ConstraintMultiplierTarget.swift */; };
@@ -62,33 +63,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A744FF8D078C3BE3BF55302F6E3F736 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
-			remoteInfo = SnapKit;
-		};
-		A24B14DCC195B77B1390A3ED5BEBB217 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE1281432D523441CA232D06CE663138;
-			remoteInfo = "Pods-WYSwiftKit_Example";
-		};
-		C3CE34A30A236F098F4032BFA0CA28CD /* PBXContainerItemProxy */ = {
+		7E12480185BB2259EAF65B766FA57CCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9EFCBB44A2D60302DB2569229E2BFB6F;
 			remoteInfo = WYSwiftKit;
 		};
-		E6199FBF189B808DF9357DDA636EC07A /* PBXContainerItemProxy */ = {
+		BA74A2C1AD0A503D057A311F7F18818E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
+		};
+		CB161B242233D7CD5C177203682627C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		EF795B01FAC63A40B94F4F3215CA51C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1281432D523441CA232D06CE663138;
+			remoteInfo = "Pods-WYSwiftKit_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -96,31 +97,30 @@
 		00529F62152FE0E9A82AF6D8EAAAE2E1 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		0072CC268C7456CC1DA6E8180975AB43 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		02732995CB94C03CB83E1935B434AD74 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
+		09B5C693351E0E63AA4A6F4D7791A3FC /* WYPopUpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYPopUpView.swift; path = WYSwiftKit/Classes/WYPopUpView.swift; sourceTree = "<group>"; };
 		0A4B3092297166519217A25AD70D5341 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
 		0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
 		0EE5F8CB92905AE76169A71226B44035 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		10F6B2CCFD1E842C1528A284592005EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		146FD6A8E6674FA0842569EC1C52FE09 /* WYSwiftKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYSwiftKit-prefix.pch"; sourceTree = "<group>"; };
 		152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		16DB03D49993B153880E884F5E76917B /* WYSwiftKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYSwiftKit.release.xcconfig; sourceTree = "<group>"; };
-		18193FBE2CBC78B684194785584FF788 /* WYPopUpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYPopUpView.swift; path = WYSwiftKit/Classes/WYPopUpView.swift; sourceTree = "<group>"; };
-		1E1C34BE09B369C06AE7B02C71FD7DC7 /* WYSwiftKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYSwiftKit.modulemap; sourceTree = "<group>"; };
 		1EFE7798EA1BEDE06097218F8B24083F /* Pods-WYSwiftKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYSwiftKit_Tests.modulemap"; sourceTree = "<group>"; };
 		26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
+		2B1C45F52E2391BF338E8870FEEA72B5 /* WYSwiftKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYSwiftKit.debug.xcconfig; sourceTree = "<group>"; };
 		2B369EC4B52947DD4B9E8C6F614A54CB /* Pods-WYSwiftKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYSwiftKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CDDA476007C040C0FADB58DFC6C0B61 /* WYSwiftKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYSwiftKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EB365F819A67E5BAED6C8852590BFD8 /* Pods-WYSwiftKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYSwiftKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
 		3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
-		3DD826375E5F5DB0F49F55DDD92854C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D4EC8D56B16A44EC8E551C802B937C3 /* WYBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYBase.swift; path = WYSwiftKit/Classes/WYBase.swift; sourceTree = "<group>"; };
 		412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
-		4A3ED58DCCD75894D8C30E058FC7C930 /* WYSwiftKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYSwiftKit-dummy.m"; sourceTree = "<group>"; };
 		4C8251A08ED8E6CF34420BBF858126F7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
 		583BBF75085D255E27A5F9EF9EC203A5 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
+		5AF0FA25075612435BA1C3A72C4A7939 /* WYSwiftKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYSwiftKit.modulemap; sourceTree = "<group>"; };
 		5F2DCDFF2011C08759407B4E2038CA11 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		5F9AE85FB1B7556107888659DF83F30F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		721B31DBDAB599AA82347579629399C7 /* Pods-WYSwiftKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYSwiftKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
@@ -128,7 +128,8 @@
 		7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		83911E1F6E850A5A76E6DC6B5000CE79 /* Pods-WYSwiftKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYSwiftKit_Example-dummy.m"; sourceTree = "<group>"; };
 		85639E48325279DA161DF9F299E6C772 /* Pods-WYSwiftKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYSwiftKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		8E62A264380ECB3F17E57F366646750E /* WYSwiftKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYSwiftKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86A05CCFB42D81275B38C45F5D24F47A /* WYSwiftKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYSwiftKit-dummy.m"; sourceTree = "<group>"; };
+		8CE7A13B9B19778B42A5EF61F34720D5 /* WYSwiftKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYSwiftKit.release.xcconfig; sourceTree = "<group>"; };
 		8EEF7D7211B15AB2F51EFF3564BDA185 /* Pods-WYSwiftKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYSwiftKit_Example-Info.plist"; sourceTree = "<group>"; };
 		932076048BB79360F50A76C2C738DFC8 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		943F7A43B727B79759ED6C46207505C1 /* Pods-WYSwiftKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYSwiftKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,12 +139,13 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
 		A2361B8291FBCC3B144AE96C5E202552 /* Pods-WYSwiftKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYSwiftKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A48EF30CC83959E9CEFB5967C0CA40E0 /* WYSwiftKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYSwiftKit-Info.plist"; sourceTree = "<group>"; };
 		A64A1BE6180A06C3A25B4A84185C1393 /* Pods-WYSwiftKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WYSwiftKit_Tests"; path = Pods_WYSwiftKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6DE9100B43A6F133E4D4D1329CA8924 /* WYBasicInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYBasicInfo.swift; path = WYSwiftKit/Classes/WYBasicInfo.swift; sourceTree = "<group>"; };
-		A8F2AA3977E78511922B1CCC80B2E3CE /* WYSwiftKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYSwiftKit-umbrella.h"; sourceTree = "<group>"; };
+		AB3D2AF40EDB3B3AC53947F4CB787EC7 /* WYSwiftKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYSwiftKit-umbrella.h"; sourceTree = "<group>"; };
 		B02632F028FB2000528BB8E9803143BF /* Pods-WYSwiftKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYSwiftKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B09D3A4488EA96E308670F4FCA134E53 /* Pods-WYSwiftKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYSwiftKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
+		B9D129B8FD7C29694C41C2511E2D2A50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		BDF6E18B5372A4BBE8507FE4B9F165C0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
@@ -156,13 +158,14 @@
 		C86F401FE99E048D82575BF26D4DA82A /* WYSwiftKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYSwiftKit; path = WYSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		CD426A0D2516293EA02A827301993323 /* Pods-WYSwiftKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYSwiftKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		D014F001E515452BCC39A36372820CC3 /* WYSwiftKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYSwiftKit-prefix.pch"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D2FD9EFCFC3AA452137876B761FFB621 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		D4031137EA02DD9D4AC4F07B160C1CE9 /* WYSwiftKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYSwiftKit-Info.plist"; sourceTree = "<group>"; };
 		DB0DA2627DD64A53C2FDA08E8CCB46D7 /* Pods-WYSwiftKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYSwiftKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
 		DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		E19256DB2A95E52745FF0173A137F869 /* WYBasicInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYBasicInfo.swift; path = WYSwiftKit/Classes/WYBasicInfo.swift; sourceTree = "<group>"; };
 		E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
 		E3ABF9ABAA6F2656A4FA8B72DCA98C40 /* Pods-WYSwiftKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYSwiftKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9252738A7D3FCA26ED36FB340FB9A94 /* Pods-WYSwiftKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYSwiftKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -171,7 +174,6 @@
 		F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
 		F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		FB63A58997A0DC492ED324E0A2FC18FA /* WYSwiftKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYSwiftKit.debug.xcconfig; sourceTree = "<group>"; };
 		FE5693124BFA9269D2085EC1ADFAAD76 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,12 +186,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A34C0E855463B3E83C18699AD29C8A17 /* Frameworks */ = {
+		9E46C746B0E9C7C088771EB34BA18648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B5487CCEBDC97AC92CA9FE413519FC /* Foundation.framework in Frameworks */,
-				BCC45CEFEB9421815532822B566816AF /* UIKit.framework in Frameworks */,
+				29091E907F0B8587EFCD8B94138AD66E /* Foundation.framework in Frameworks */,
+				3F1178DAA0A63330A23A83BCCF5E2BF4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,20 +214,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		129FCA96726C60D989F8CC03D5CB651E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED3B473053A52D0BD694A422CA90974E /* WYSwiftKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1679ACF689E7F3AD851D520B3513074E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ECF15DA52DF97F0B49EB2919456E6A29 /* WYSwiftKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		403EB05A3920652EED411213C52E3AC2 /* Support Files */ = {
@@ -260,21 +262,6 @@
 			path = "Target Support Files/Pods-WYSwiftKit_Example";
 			sourceTree = "<group>";
 		};
-		55BEEA246382F4DED04F2F33DF213CD7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1E1C34BE09B369C06AE7B02C71FD7DC7 /* WYSwiftKit.modulemap */,
-				4A3ED58DCCD75894D8C30E058FC7C930 /* WYSwiftKit-dummy.m */,
-				D4031137EA02DD9D4AC4F07B160C1CE9 /* WYSwiftKit-Info.plist */,
-				146FD6A8E6674FA0842569EC1C52FE09 /* WYSwiftKit-prefix.pch */,
-				A8F2AA3977E78511922B1CCC80B2E3CE /* WYSwiftKit-umbrella.h */,
-				FB63A58997A0DC492ED324E0A2FC18FA /* WYSwiftKit.debug.xcconfig */,
-				16DB03D49993B153880E884F5E76917B /* WYSwiftKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYSwiftKit";
-			sourceTree = "<group>";
-		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,14 +271,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		74FB293C11B208186B714C9820479073 /* Pod */ = {
+		75FDF96E04A07BBD4FF44EB50EC2BBEC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F9AE85FB1B7556107888659DF83F30F /* LICENSE */,
-				3DD826375E5F5DB0F49F55DDD92854C4 /* README.md */,
-				8E62A264380ECB3F17E57F366646750E /* WYSwiftKit.podspec */,
+				5AF0FA25075612435BA1C3A72C4A7939 /* WYSwiftKit.modulemap */,
+				86A05CCFB42D81275B38C45F5D24F47A /* WYSwiftKit-dummy.m */,
+				A48EF30CC83959E9CEFB5967C0CA40E0 /* WYSwiftKit-Info.plist */,
+				D014F001E515452BCC39A36372820CC3 /* WYSwiftKit-prefix.pch */,
+				AB3D2AF40EDB3B3AC53947F4CB787EC7 /* WYSwiftKit-umbrella.h */,
+				2B1C45F52E2391BF338E8870FEEA72B5 /* WYSwiftKit.debug.xcconfig */,
+				8CE7A13B9B19778B42A5EF61F34720D5 /* WYSwiftKit.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYSwiftKit";
 			sourceTree = "<group>";
 		};
 		C7CD8063F03068266435D3BC9685486F /* Pods-WYSwiftKit_Tests */ = {
@@ -323,7 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1679ACF689E7F3AD851D520B3513074E /* Development Pods */,
+				129FCA96726C60D989F8CC03D5CB651E /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				FBE859397B27E4FC4D81B6F5DD24B6F6 /* Pods */,
 				E207EA6099A36209DAD09456D96FBAE6 /* Products */,
@@ -388,16 +380,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECF15DA52DF97F0B49EB2919456E6A29 /* WYSwiftKit */ = {
+		ED3B473053A52D0BD694A422CA90974E /* WYSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
-				A6DE9100B43A6F133E4D4D1329CA8924 /* WYBasicInfo.swift */,
-				18193FBE2CBC78B684194785584FF788 /* WYPopUpView.swift */,
-				74FB293C11B208186B714C9820479073 /* Pod */,
-				55BEEA246382F4DED04F2F33DF213CD7 /* Support Files */,
+				3D4EC8D56B16A44EC8E551C802B937C3 /* WYBase.swift */,
+				E19256DB2A95E52745FF0173A137F869 /* WYBasicInfo.swift */,
+				09B5C693351E0E63AA4A6F4D7791A3FC /* WYPopUpView.swift */,
+				F984D31CFBA890A469268280936DE31D /* Pod */,
+				75FDF96E04A07BBD4FF44EB50EC2BBEC /* Support Files */,
 			);
 			name = WYSwiftKit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		F984D31CFBA890A469268280936DE31D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B2CCFD1E842C1528A284592005EB /* LICENSE */,
+				B9D129B8FD7C29694C41C2511E2D2A50 /* README.md */,
+				2CDDA476007C040C0FADB58DFC6C0B61 /* WYSwiftKit.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		FBE859397B27E4FC4D81B6F5DD24B6F6 /* Pods */ = {
@@ -435,11 +438,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2F795BA43AE507A8604B8B90138AD26 /* Headers */ = {
+		69792E4D4E2D6F262E62C99CE1B97E22 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA03235689A011E30D82E362FE474C6 /* WYSwiftKit-umbrella.h in Headers */,
+				20C01CCBA3CCF8B62112402395CE6B7E /* WYSwiftKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +479,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CAC339C81E9553C10402DACA1EC9B488 /* PBXTargetDependency */,
+				8ED21FF8E347CCE7C20C6380C9997AAB /* PBXTargetDependency */,
 			);
 			name = "Pods-WYSwiftKit_Tests";
 			productName = Pods_WYSwiftKit_Tests;
@@ -485,17 +488,17 @@
 		};
 		9EFCBB44A2D60302DB2569229E2BFB6F /* WYSwiftKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3896613D7F0CEFF9EA0792D263BCC46C /* Build configuration list for PBXNativeTarget "WYSwiftKit" */;
+			buildConfigurationList = 78E949173411BC01733E059031733145 /* Build configuration list for PBXNativeTarget "WYSwiftKit" */;
 			buildPhases = (
-				E2F795BA43AE507A8604B8B90138AD26 /* Headers */,
-				004956B39EFC39E5444015A48D132A7B /* Sources */,
-				A34C0E855463B3E83C18699AD29C8A17 /* Frameworks */,
-				0C232004F9BFBDE1C28559AC303536A8 /* Resources */,
+				69792E4D4E2D6F262E62C99CE1B97E22 /* Headers */,
+				EC341592061D30A300C512F662531C7D /* Sources */,
+				9E46C746B0E9C7C088771EB34BA18648 /* Frameworks */,
+				C990150483684C0F757FF1E619B06F8E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D499DFD76427815914CF3AB4CC331656 /* PBXTargetDependency */,
+				7E4449F0A58EEC6DF4C00818EDD9129F /* PBXTargetDependency */,
 			);
 			name = WYSwiftKit;
 			productName = WYSwiftKit;
@@ -514,8 +517,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				46048910AF9420A26B95094AFE66135A /* PBXTargetDependency */,
-				75782A5FEB0C163105B02C89C020A9BC /* PBXTargetDependency */,
+				E7C1E2C5D3638F043E73AF10EC28297D /* PBXTargetDependency */,
+				327D6C9F35AF97F68051B6F824662C4B /* PBXTargetDependency */,
 			);
 			name = "Pods-WYSwiftKit_Example";
 			productName = Pods_WYSwiftKit_Example;
@@ -528,8 +531,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -553,13 +556,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C232004F9BFBDE1C28559AC303536A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5EEA7CE1AB3FFED743B68E2B55A32C04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -581,19 +577,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		004956B39EFC39E5444015A48D132A7B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		C990150483684C0F757FF1E619B06F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E05C0A620821BB22FB489B67DFA529A9 /* WYBasicInfo.swift in Sources */,
-				82ED208A65B607AFD791AED1E2FEC232 /* WYPopUpView.swift in Sources */,
-				1303AC8AD8F7AF03E067E462BD8087EC /* WYSwiftKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		0C3F3C6142738A08FE8F5B1247F4B779 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -655,32 +648,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC341592061D30A300C512F662531C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E815A8D66B7E8126460220BE87CADB7C /* WYBase.swift in Sources */,
+				84706093115B4E32AAEF7347164CCE2B /* WYBasicInfo.swift in Sources */,
+				5B539A7D6887A7ABC88A0AFBC8E00417 /* WYPopUpView.swift in Sources */,
+				DDBF71AAD6E9969BC28AF2F0D1FF2674 /* WYSwiftKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46048910AF9420A26B95094AFE66135A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 4A744FF8D078C3BE3BF55302F6E3F736 /* PBXContainerItemProxy */;
-		};
-		75782A5FEB0C163105B02C89C020A9BC /* PBXTargetDependency */ = {
+		327D6C9F35AF97F68051B6F824662C4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WYSwiftKit;
 			target = 9EFCBB44A2D60302DB2569229E2BFB6F /* WYSwiftKit */;
-			targetProxy = C3CE34A30A236F098F4032BFA0CA28CD /* PBXContainerItemProxy */;
+			targetProxy = 7E12480185BB2259EAF65B766FA57CCE /* PBXContainerItemProxy */;
 		};
-		CAC339C81E9553C10402DACA1EC9B488 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WYSwiftKit_Example";
-			target = FE1281432D523441CA232D06CE663138 /* Pods-WYSwiftKit_Example */;
-			targetProxy = A24B14DCC195B77B1390A3ED5BEBB217 /* PBXContainerItemProxy */;
-		};
-		D499DFD76427815914CF3AB4CC331656 /* PBXTargetDependency */ = {
+		7E4449F0A58EEC6DF4C00818EDD9129F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = E6199FBF189B808DF9357DDA636EC07A /* PBXContainerItemProxy */;
+			targetProxy = CB161B242233D7CD5C177203682627C9 /* PBXContainerItemProxy */;
+		};
+		8ED21FF8E347CCE7C20C6380C9997AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WYSwiftKit_Example";
+			target = FE1281432D523441CA232D06CE663138 /* Pods-WYSwiftKit_Example */;
+			targetProxy = EF795B01FAC63A40B94F4F3215CA51C3 /* PBXContainerItemProxy */;
+		};
+		E7C1E2C5D3638F043E73AF10EC28297D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = BA74A2C1AD0A503D057A311F7F18818E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -754,6 +758,39 @@
 			};
 			name = Debug;
 		};
+		241FCC775F1F72BE2FCEE88BC9A2F55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE7A13B9B19778B42A5EF61F34720D5 /* WYSwiftKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYSwiftKit/WYSwiftKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYSwiftKit/WYSwiftKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYSwiftKit/WYSwiftKit.modulemap";
+				PRODUCT_MODULE_NAME = WYSwiftKit;
+				PRODUCT_NAME = WYSwiftKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		321A2120D400C5B8DC97CEE0924C9F21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 782C19B041349DED0C47AC71C798375C /* SnapKit.release.xcconfig */;
@@ -787,9 +824,9 @@
 			};
 			name = Release;
 		};
-		4188F3C76147CE77404D1304256AF07B /* Debug */ = {
+		58A00D7D108C2BB04B4A6F3072BF5D32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB63A58997A0DC492ED324E0A2FC18FA /* WYSwiftKit.debug.xcconfig */;
+			baseConfigurationReference = 2B1C45F52E2391BF338E8870FEEA72B5 /* WYSwiftKit.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1048,51 +1085,9 @@
 			};
 			name = Debug;
 		};
-		C8459F9C384E6F0CE3421812F7458631 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16DB03D49993B153880E884F5E76917B /* WYSwiftKit.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WYSwiftKit/WYSwiftKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WYSwiftKit/WYSwiftKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WYSwiftKit/WYSwiftKit.modulemap";
-				PRODUCT_MODULE_NAME = WYSwiftKit;
-				PRODUCT_NAME = WYSwiftKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3896613D7F0CEFF9EA0792D263BCC46C /* Build configuration list for PBXNativeTarget "WYSwiftKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4188F3C76147CE77404D1304256AF07B /* Debug */,
-				C8459F9C384E6F0CE3421812F7458631 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1116,6 +1111,15 @@
 			buildConfigurations = (
 				101F1DD24C5C4DA7994B37DEEBD72702 /* Debug */,
 				00A9D0402856E70220D11589CAB29513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E949173411BC01733E059031733145 /* Build configuration list for PBXNativeTarget "WYSwiftKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A00D7D108C2BB04B4A6F3072BF5D32 /* Debug */,
+				241FCC775F1F72BE2FCEE88BC9A2F55B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
