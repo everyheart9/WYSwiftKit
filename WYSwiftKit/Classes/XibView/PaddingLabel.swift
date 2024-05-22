@@ -1,5 +1,5 @@
 //
-//  WYPaddingLabel.swift
+//  PaddingLabel.swift
 //  WYSwiftKit
 //
 //  Created by apple on 2024/5/22.

@@ -4,7 +4,7 @@
   "summary": "WYSwiftKit is a kit.",
   "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/everyheart9/WYSwiftKit",
+  "homepage": "https://github.com/eylery/WYSwiftKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
     "cwy": "cwy@gmail.com"
   },
   "source": {
-    "git": "https://github.com/everyheart9/WYSwiftKit.git",
+    "git": "https://github.com/eylery/WYSwiftKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
